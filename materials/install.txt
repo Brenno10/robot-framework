@@ -1,0 +1,9 @@
+ - Instalar Robot Framework e Selenium Library -
+    pip install robotframework
+    pip install robotframework-seleniumlibrary
+
+ - Chrome -
+    Verificar a versão do chrome
+    https://chromedriver.chromium.org/downloads
+    Em variaveis de ambiente, procurar pelo caminho do python
+    Adicionar chromedriver.exe a pasta scripts do python

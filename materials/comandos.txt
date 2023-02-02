@@ -1,0 +1,11 @@
+ - Coloca os reports do teste em uma nova pasta -
+    robot -d <nome_da_pasta> <arquivo_a_ser_executado>
+    
+ - Roda um caso de teste específico -
+    robot -d <nome_da_pasta> -t <cenário_a_ser_executado> <arquivo_a_ser_executado>
+
+ - Executa os testes de todos os arquivos na pasta -
+    robot -d <nome_da_pasta> <pasta_dos_arquivos>
+
+ - Executa só os casos de teste que possuem a tag especificada -
+    robot -d <nome_da_pasta> -i <nome_da_tag> <pasta_dos_arquivos>
