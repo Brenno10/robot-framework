@@ -1,0 +1,26 @@
+** consultar de um produto no site da netshoes e comparar o valor **
+
+Abrir o navegador
+Entrar no site da netshoes
+Procurar um produto especifico
+Clicar no produto
+Verificar o valor se é igual a X
+finaliza o teste
+
+
+
+** O que precisar conter no projeto **
+- 1 variavel
+
+- Keywords
+
+- 1 Test case
+
+
+
+** Exemplo de comparação do texto: **
+
+Verificar nome do vendedor como "${NOME_VENDEDOR}"
+    Verificar se o título da tela de venda está visível
+    ${texto_nome_vendedor}    Get Text From Textbox    ${VENDA_LBL_NOME_VENDEDOR}
+    Should Be Equal As Strings    ${NOME_VENDEDOR}    ${texto_nome_vendedor}
