@@ -1,0 +1,17 @@
+Desafio 2
+Criação de um test case utilizando if else e logs
+
+Script:
+•	Abrir o navegador no site da Netshoes
+•	Procurar um produto específico
+•	Clicar no produto
+•	Verificar se o valor do produto for maior que X, toma uma decisão, senão, toma outra decisão
+•	Finalizar o teste
+
+- O que precisa ter no projeto?
+test setup
+test teardown
+Tags
+Documentation
+IF ELSE
+Logs

@@ -1,0 +1,7 @@
+Consultar CEP verificando todos os objetos
+Teste de login
+adicionar produtos a lista de desejo
+teste de adicionar produtos no carrinho
+    subtotal
+    frete
+    valor total
