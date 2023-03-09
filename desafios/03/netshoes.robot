@@ -2,6 +2,8 @@
 Library    SeleniumLibrary
 Library    Collections
 Library    String
+Test Setup       Abrir o navegador no site da Netshoes
+Test Teardown    Finalizar o teste
 
 
 *** Variables ***
@@ -99,38 +101,30 @@ Finalizar o teste
 
 *** Test Cases ***
 Caso 01: Verificar CEP
-    Abrir o navegador no site da netshoes
     Verificar se o "${button_close_pop_up}" existe
     Verificar se o "${button_cookies}" existe
     Clicar no elemento "${button_informe_cep}"
     Escreva "05001-903" no elemento "${input_cep}"
     Clicar no elemento "${button_consultar_cep}"
     Clicar no elemento "${button_ok}"
-    Finalizar o teste
 
 Caso 02: Teste de login
-    Abrir o navegador no site da Netshoes
     Verificar se o "${button_close_pop_up}" existe
     Verificar se o "${button_cookies}" existe
     Fazer login "58594691017" "123321"
-    Finalizar o teste
 
 Caso 03: Adicionar produtos a lista de desejo
-    Abrir o navegador no site da Netshoes
     Verificar se o "${button_close_pop_up}" existe
     Verificar se o "${button_cookies}" existe
     Fazer login "58594691017" "test123321"
     Voltar para a página inicial
     Adicionar todos os produtos a lista de desejo
-    Finalizar o teste
 
 Caso 04: Adicionar produtos no carrinho
-    Abrir o navegador no site da Netshoes
     Verificar se o "${button_close_pop_up}" existe
     Verificar se o "${button_cookies}" existe
     Adicionar todos os produtos ao carrinho
     Clicar no elemento "${button_carrinho}"
     Clicar no elemento "${button_calcular}"
     Verificar os valores de subtotal, frete e total
-    Finalizar o teste
 
