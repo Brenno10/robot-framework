@@ -38,7 +38,6 @@ ${text_frete}               //*[@class="summary__item__content"]/*[@class="summa
 ${text_total}               //*[@qa-auto="cart-price-payment-method"]
 
 
-
 *** Keywords ***
 Abrir o navegador no site da Netshoes
     Open Browser    https://www.netshoes.com.br/    chrome
@@ -120,7 +119,7 @@ Caso 03: Adicionar produtos a lista de desejo
     Abrir o navegador no site da Netshoes
     Verificar se o "${button_close_pop_up}" existe
     Verificar se o "${button_cookies}" existe
-    Fazer login "hewota7698@proexbol.com" "test123321"
+    Fazer login "58594691017" "test123321"
     Voltar para a página inicial
     Adicionar todos os produtos a lista de desejo
     Finalizar o teste
